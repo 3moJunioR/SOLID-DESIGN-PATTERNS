@@ -87,17 +87,37 @@ namespace SOLID
 
         #region LSP - Liskov Substitution Principle
         //Violates LSP
-        public class Bird
+        public class Bird0
         {
             public virtual void Fly() => Console.WriteLine("I can Fly");
         }
-        public class Penguin :Bird
+        public class Penguin :Bird0
         {
                        public override void Fly() => throw new Exception("I can't Fly");
         }
         // المشكلة هنا
         //Bird bird = new Penguin();
-       // bird.Fly(); Exception
+        // bird.Fly(); //Exception
+
+        //Follows LSP
+        public abstract class  Bird()
+        {
+            public abstract void Move();
+        }
+        public class  flyingBird : Bird
+        {
+            public override void Move()=> Console.WriteLine("I can Fly");
+        }
+        public class Punguin : Bird
+        { 
+            public override void Move()=> Console.WriteLine("I can Swim");
+        }
+        // دلوقتي
+        //Bird bird = new Penguin();
+        //bird.Move(); شغال زي الفل ك صب  كلاس بيحل محل الكلاس البيرنت عادي
+
+
+
 
         #endregion
 
