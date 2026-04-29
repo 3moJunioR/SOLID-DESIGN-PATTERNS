@@ -112,6 +112,7 @@ namespace SOLID
         { 
             public override void Move()=> Console.WriteLine("I can Swim");
         }
+
         // دلوقتي
         //Bird bird = new Penguin();
         //bird.Move(); شغال زي الفل ك صب  كلاس بيحل محل الكلاس البيرنت عادي
@@ -120,6 +121,44 @@ namespace SOLID
 
 
         #endregion
+
+        #region ISP - Interface Segregation Principle
+        // Violates ISP
+        public interface IWorker0
+        {
+            void Eat();
+            void Work();
+            void Sleep();
+        }
+        public class Robot0 : IWorker
+        { 
+          public void Work()=> Console.WriteLine("im working");
+          public void Eat() => throw new Exception("Robot don't eat"); // المشكلة هنا
+          public void Sleep()=> throw new Exception("Robot don't sleep"); // المشكلة هنا برده
+
+        }
+        //طيب المشكلة ايه؟
+        // انك لما تيجي تستخدم الروبوت هتضطر تكتب كود عشان تتعامل مع الاكسبشن اللي بيطلع من الاكل والنوم، مع ان الروبوت اصلا ولا بياكل ولا بينام
+
+        //Follows ISP
+        public interface IWorker
+        { void Work(); }
+        public interface IEatable
+        { void Eat(); }
+        public interface ISleepable
+        { void Sleep(); }
+        public class Human : IWorker, IEatable, ISleepable
+        { 
+            public void Work()=> Console.WriteLine("im working");
+            public void Eat()=> Console.WriteLine("im eating");
+            public void Sleep()=> Console.WriteLine("im sleeping");
+        }
+        public class Robot: IWorker
+        {
+            public void Work() => Console.WriteLine("im working"); // اللي يخصه بس
+        }
+        #endregion
+
 
         static void Main(string[] args)
         {
