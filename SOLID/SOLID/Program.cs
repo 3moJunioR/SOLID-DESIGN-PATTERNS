@@ -159,6 +159,48 @@ namespace SOLID
         }
         #endregion
 
+        #region DIP - Dependency Inversion Principle
+        //Violates DIP
+        public class  mysqldb
+        {
+           public void save(string data) => Console.WriteLine($"Saving {data} to MySQL...");
+        }
+        public class userService0
+        {
+            private mysqldb _db=new mysqldb(); //  المشكلة هنا ان الكلاس بيعتمد على كلاس معين 
+            // ولو حبيت تغير نوع الداتا بيز هتضطر تغير الكود هنا(userService0)
+            public void saveUser(string name)
+            {
+                _db.save(name);
+            }
+        }
+
+        //Follows DIP
+        public interface IDatabase
+        { 
+            void Save(string data);
+        }
+        public class mySQLDB:IDatabase
+        {
+            public void Save(string data) => Console.WriteLine($"Saving {data} to MySQL...");
+        }
+        public class mongoDB:IDatabase
+        {
+            public void Save(string data) => Console.WriteLine($"Saving {data} to MongoDB...");
+        }
+        public class userService
+        {
+            private IDatabase _db; //  دلوقتي الكلاس بيعتمد على ابستراكشن (interface) مش كلاس معين
+            public userService(IDatabase db) //  وبتاخد نوع الداتا بيز من برا عن طريق الكونستركتور
+            => _db = db;
+            public void SaveUser(string name) => _db.Save(name);
+        }
+        //the usage
+        // var service=new userService(new mySQLDB()); // لو حبيت تغير نوع الداتا بيز بس تغير هنا من غير ما تلمس كود اليوزر سيرفيس
+        //var service=new userService(new mongoDB()); 
+        // الفكرة في انك تعتمد علي الabstraction not the implementation
+        #endregion
+
 
         static void Main(string[] args)
         {
