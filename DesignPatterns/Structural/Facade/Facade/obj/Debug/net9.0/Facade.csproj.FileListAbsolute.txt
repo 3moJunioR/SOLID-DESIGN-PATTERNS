@@ -1,0 +1,15 @@
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\bin\Debug\net9.0\Facade.exe
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\bin\Debug\net9.0\Facade.deps.json
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\bin\Debug\net9.0\Facade.runtimeconfig.json
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\bin\Debug\net9.0\Facade.dll
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\bin\Debug\net9.0\Facade.pdb
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.AssemblyInfoInputs.cache
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.AssemblyInfo.cs
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.csproj.CoreCompileInputs.cache
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.sourcelink.json
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.dll
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\refint\Facade.dll
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.pdb
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\Facade.genruntimeconfig.cache
+E:\ITI\DP\DesignPatterns\Structural\Facade\Facade\obj\Debug\net9.0\ref\Facade.dll
