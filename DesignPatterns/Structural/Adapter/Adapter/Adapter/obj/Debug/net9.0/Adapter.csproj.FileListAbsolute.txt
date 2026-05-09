@@ -1,0 +1,15 @@
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\bin\Debug\net9.0\Adapter.exe
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\bin\Debug\net9.0\Adapter.deps.json
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\bin\Debug\net9.0\Adapter.runtimeconfig.json
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\bin\Debug\net9.0\Adapter.dll
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\bin\Debug\net9.0\Adapter.pdb
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.AssemblyInfoInputs.cache
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.AssemblyInfo.cs
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.csproj.CoreCompileInputs.cache
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.sourcelink.json
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.dll
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\refint\Adapter.dll
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.pdb
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\Adapter.genruntimeconfig.cache
+E:\ITI\DP\DesignPatterns\Structural\Adapter\Adapter\Adapter\obj\Debug\net9.0\ref\Adapter.dll
